@@ -5,7 +5,7 @@ void main()
     int id;
     char name[30];
     float salary;
-    fptr = fopen("C://Users/Arjun Shiva PC/Desktop/emp.txt", "w+");
+    fptr = fopen("myfile.txt", "w+");
     if (fptr == NULL)
     {
         printf("File does not exists\n");
